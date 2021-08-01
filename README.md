@@ -21,7 +21,7 @@ $ cd eleventy-tailwind-starter
 Install the required npm packages:
 
 ```shell
-npm i
+$ npm i
 ```
 
 Once installed, you can remove or overwrite `README.md`.
@@ -42,7 +42,7 @@ $ npm run dev
 When you're ready to publish your site using a service like [Vercel](https://vercel.com) or [Netlify](https://www.netlify.com), use this command:
 
 ```shell
-npm run build
+$ npm run build
 ```
 
 - Eleventy will scan the `_src/` directory and output content to `_site/`.
