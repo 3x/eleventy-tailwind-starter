@@ -1,0 +1,21 @@
+{
+  "name": "eleventy-tailwind-starter",
+  "version": "1.0.0",
+  "description": "A very basic starting point for using Eleventy and TailwindCSS.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx postcss _src/assets/css/tailwind.css -o _site/assets/css/main.css & npx @11ty/eleventy --input=_src --serve",
+    "build": "NODE_ENV=production npx postcss _src/assets/css/tailwind.css -o _site/assets/css/main.css & npx @11ty/eleventy --input=_src"
+  },
+  "keywords": ["eleventy", "tailwind", "template", "starter", "11ty"],
+  "author": "bdn (https://bdn.sh)",
+  "license": "MIT",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "@tailwindcss/typography": "^0.4.1",
+    "autoprefixer": "^10.3.1",
+    "cssnano": "^5.0.7",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.2.7"
+  }
+}
